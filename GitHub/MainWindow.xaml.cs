@@ -25,9 +25,10 @@ namespace GitHub
             InitializeComponent();
         }
 
+        int getal = 0;
         private void btnKlik_Click(object sender, RoutedEventArgs e)
         {
-            lblOutput.Content = "Hello World";
+            lblOutput.Content = getal++;
         }
     }
 }
