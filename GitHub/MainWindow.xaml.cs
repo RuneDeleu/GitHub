@@ -25,7 +25,7 @@ namespace GitHub
             InitializeComponent();
         }
 
-        private void btnKlik_Click(object sender, RoutedEventArgs e)
+        private void btnKlik_Click_1(object sender, RoutedEventArgs e)
         {
             lblOutput.Content = "Hello World";
         }
